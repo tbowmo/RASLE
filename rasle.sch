@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:gamehat2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -207,7 +206,7 @@ Connection ~ 3000 1700
 Text Notes 650  7600 0    50   ~ 0
 ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required.
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 5834FB2E
 P 3000 7200
 F 0 "MK1" H 3100 7246 50  0000 L CNN
@@ -218,7 +217,7 @@ F 3 "" H 3000 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole MK3
 U 1 1 5834FBEF
 P 3450 7200
 F 0 "MK3" H 3550 7246 50  0000 L CNN
@@ -229,7 +228,7 @@ F 3 "" H 3450 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 5834FC19
 P 3000 7400
 F 0 "MK2" H 3100 7446 50  0000 L CNN
@@ -240,7 +239,7 @@ F 3 "" H 3000 7400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:MountingHole MK4
 U 1 1 5834FC4F
 P 3450 7400
 F 0 "MK4" H 3550 7446 50  0000 L CNN
@@ -625,42 +624,42 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x03_Male J12
 U 1 1 5BA56664
-P 3800 6200
-F 0 "J12" H 3906 6478 50  0000 C CNN
-F 1 "External relay" V 3700 6250 50  0000 C CNN
-F 2 "Connectors_JST_PH:Connectors_JST_B3B-PH-K" H 3800 6200 50  0001 C CNN
-F 3 "~" H 3800 6200 50  0001 C CNN
-	1    3800 6200
+P 3800 6100
+F 0 "J12" H 3906 6378 50  0000 C CNN
+F 1 "External relay" V 3700 6150 50  0000 C CNN
+F 2 "Connectors_JST_PH:Connectors_JST_B3B-PH-K" H 3800 6100 50  0001 C CNN
+F 3 "~" H 3800 6100 50  0001 C CNN
+	1    3800 6100
 	1    0    0    -1  
 $EndComp
 Text Label 6700 3700 0    50   ~ 0
 POWER
-Text Label 4000 6200 0    50   ~ 0
+Text Label 4000 6100 0    50   ~ 0
 POWER
 $Comp
 L power:+5V #PWR0115
 U 1 1 5BA56ACA
-P 4000 6000
-F 0 "#PWR0115" H 4000 5850 50  0001 C CNN
-F 1 "+5V" H 4015 6173 50  0000 C CNN
-F 2 "" H 4000 6000 50  0001 C CNN
-F 3 "" H 4000 6000 50  0001 C CNN
-	1    4000 6000
+P 4000 5900
+F 0 "#PWR0115" H 4000 5750 50  0001 C CNN
+F 1 "+5V" H 4015 6073 50  0000 C CNN
+F 2 "" H 4000 5900 50  0001 C CNN
+F 3 "" H 4000 5900 50  0001 C CNN
+	1    4000 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5BA56B88
-P 4000 6400
-F 0 "#PWR0116" H 4000 6150 50  0001 C CNN
-F 1 "GND" H 4005 6227 50  0000 C CNN
-F 2 "" H 4000 6400 50  0001 C CNN
-F 3 "" H 4000 6400 50  0001 C CNN
-	1    4000 6400
+P 4000 6300
+F 0 "#PWR0116" H 4000 6050 50  0001 C CNN
+F 1 "GND" H 4005 6127 50  0000 C CNN
+F 2 "" H 4000 6300 50  0001 C CNN
+F 3 "" H 4000 6300 50  0001 C CNN
+	1    4000 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 6400 4000 6300
+	4000 6300 4000 6200
 Wire Wire Line
 	6100 2400 6100 2300
 Wire Wire Line
@@ -954,7 +953,7 @@ $EndComp
 Text Label 6250 1250 0    50   ~ 0
 FAN
 Wire Wire Line
-	4000 6100 4000 6000
+	4000 6000 4000 5900
 $Comp
 L power:GND #PWR0129
 U 1 1 5BAF2ABE
@@ -1531,8 +1530,8 @@ $Comp
 L Device:C C15
 U 1 1 5BAAE61A
 P 7600 3500
-F 0 "C15" V 7348 3500 50  0000 C CNN
-F 1 "C" V 7439 3500 50  0000 C CNN
+F 0 "C15" V 7750 3500 50  0000 C CNN
+F 1 "C" V 7850 3500 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" H 7638 3350 50  0001 C CNN
 F 3 "~" H 7600 3500 50  0001 C CNN
 	1    7600 3500
@@ -1586,8 +1585,6 @@ Text Label 6700 3000 0    50   ~ 0
 MOSI
 Text Label 6700 2800 0    50   ~ 0
 FAN
-Text Label 1250 1400 2    50   ~ 0
-RESET_ATMEGA
 $Comp
 L power:GND #PWR0144
 U 1 1 5BABF80B
@@ -1953,4 +1950,23 @@ Wire Notes Line
 	8350 1950 11100 1950
 Wire Notes Line
 	8350 5850 8350 1950
+Text Label 1250 1400 2    50   ~ 0
+RESET
+$Comp
+L Connector:Conn_01x02_Male J13
+U 1 1 5BB825E5
+P 5050 1000
+F 0 "J13" H 5023 880 50  0000 R CNN
+F 1 "Reset disable" H 5023 971 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5050 1000 50  0001 C CNN
+F 3 "~" H 5050 1000 50  0001 C CNN
+	1    5050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 1000 4850 1300
+Wire Wire Line
+	4850 650  4850 900 
+Text Label 4850 650  0    50   ~ 0
+RESET
 $EndSCHEMATC
