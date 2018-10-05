@@ -1,0 +1,17 @@
+commit 09a75f5bc570d54dbbf92492ee2e3e3b8252d502
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Fri Oct 5 22:01:37 2018 +0200
+
+    added license files
+
+commit 97bfdfae289123b831147d680f8bf33bf07cc314
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Fri Oct 5 21:57:52 2018 +0200
+
+    Added manufacturing files
+
+commit 4a774a55ad01dd46e42a50856435d59aecc850c2
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Thu Oct 4 21:56:09 2018 +0200
+
+    Initial commit
