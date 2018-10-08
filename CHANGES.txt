@@ -1,4 +1,16 @@
-commit 09a75f5bc570d54dbbf92492ee2e3e3b8252d502
+commit 96ecff5652d7d26ef8f7db3fdc9dca7b87d5b8b4
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Mon Oct 8 20:35:05 2018 +0200
+
+    Added RTC chip for timekeeping
+
+commit bc97a11311349ed1eb7305a55c62c93d522068f3
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Sun Oct 7 00:07:07 2018 +0200
+
+    Added EEPROM for HAT compatability
+
+commit 2c33cad61d8b0cdc935c86e44fc5256f6e992214
 Author: Thomas Mørch <thomas-nospam@bowmo.dk>
 Date:   Fri Oct 5 22:01:37 2018 +0200
 
