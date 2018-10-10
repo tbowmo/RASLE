@@ -1,4 +1,10 @@
-commit 96ecff5652d7d26ef8f7db3fdc9dca7b87d5b8b4
+commit ff4e9595cb58571e6d375f01a2e33a7300fc8065
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Wed Oct 10 22:16:45 2018 +0200
+
+    Removed RTC chip as it is not necessary
+
+commit c9a923ccb87e92b1a1abff819b905fc5d8e45c46
 Author: Thomas Mørch <thomas-nospam@bowmo.dk>
 Date:   Mon Oct 8 20:35:05 2018 +0200
 
