@@ -633,7 +633,7 @@ F 3 "~" H 3800 6100 50  0001 C CNN
 	1    3800 6100
 	1    0    0    -1  
 $EndComp
-Text Label 6700 3700 0    50   ~ 0
+Text Label 6700 4600 0    50   ~ 0
 POWER
 Text Label 4000 6100 0    50   ~ 0
 POWER
@@ -1332,10 +1332,6 @@ Wire Wire Line
 	5900 950  5900 1150
 Text Label 3950 1600 0    50   ~ 0
 BCLK
-Text Label 6700 3800 0    50   ~ 0
-GPIO23(GEN4)
-Text Label 6700 3900 0    50   ~ 0
-GPIO24(GEN5)
 Text Label 4850 1300 0    50   ~ 0
 RESET_ATMEGA
 Text Label 6700 4200 0    50   ~ 0
@@ -2114,4 +2110,12 @@ F 3 "" H 7800 5400 50  0000 C CNN
 	1    7800 5400
 	1    0    0    -1  
 $EndComp
+Text Label 6700 3900 0    50   ~ 0
+BUTTON4
+Text Label 6700 3800 0    50   ~ 0
+BUTTON2
+Text Label 6700 3700 0    50   ~ 0
+BUTTON3
+Text Label 6700 2900 0    50   ~ 0
+BUTTON1
 $EndSCHEMATC

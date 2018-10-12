@@ -1,4 +1,22 @@
-commit ff4e9595cb58571e6d375f01a2e33a7300fc8065
+commit 5de6ecbaa782078d122991c539d17ed5ec99d668
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Fri Oct 12 18:41:39 2018 +0200
+
+    Connected atmega to all buttons, so it can listen to the same button events as RPI
+
+commit 67c2c405f7b93c13a77c293ebc34dc6e7657874b
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Thu Oct 11 08:49:13 2018 +0200
+
+    Minor touchup / beautifying of routing
+
+commit 0f19d415ff7bd9cd38268dfc6717e46211871d13
+Author: Thomas Mørch <thomas-nospam@bowmo.dk>
+Date:   Wed Oct 10 22:19:56 2018 +0200
+
+    Updated gerbers
+
+commit b1856b7578f23b33af38089a7e51f424bab4d4e3
 Author: Thomas Mørch <thomas-nospam@bowmo.dk>
 Date:   Wed Oct 10 22:16:45 2018 +0200
 
