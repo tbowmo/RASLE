@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name adafruit)(type Legacy)(uri /home/thomas/Projects/kicad/rasle/adafruit.lib)(options "")(descr ""))
   (lib (name gamehat2)(type Legacy)(uri /home/thomas/Projects/kicad/rasle/rasle.lib)(options "")(descr ""))
+  (lib (name rasle-rescue)(type Legacy)(uri ${KIPRJMOD}/rasle-rescue.lib)(options "")(descr ""))
 )
